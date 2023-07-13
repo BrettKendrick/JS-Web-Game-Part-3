@@ -165,8 +165,6 @@ function move(element) {
             direction = null
         })
     }
-    
-       
     }
 
     return {
@@ -174,7 +172,6 @@ function move(element) {
         withArrowKeys: moveWithArrowKeys
     }        
 
-    const character = newImage('assets/green-character/static.gif')
 
 function handleDirectionChange(){
     if(direction === null){
